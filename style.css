@@ -73,28 +73,37 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 h1{
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   color: #ffff;
 }
 #top-header{
   text-align: center;
-  background-image: url(../img/donation7.jpg);
+  background-image: url(../img/donation1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 20%;
   position: relative;
+  z-index: +1;
 }
 #top-header::before{
   content: "";
   position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  left: 0;
+  top: 0;
+  opacity: -4;
+  z-index: -1;
 }
 .heading p{
   margin-top: 2%;
   text-transform: capitalize;
   line-height: 30px;
   color: #ffff;
+  font-weight: bold;
 }
 .btn-01 a{
   color: #ffff;
