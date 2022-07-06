@@ -118,7 +118,7 @@ h1{
   border-radius: 10px;
 }
 #donate-money{
-  background-color: #fff;
+  background-color: #FFEEEE;
   padding: 50px 40px;
   margin-top: 30%;
   border: 2px solid red;
@@ -141,6 +141,10 @@ h1{
   display: inline-block;
   padding: 5px 15px;
   border-radius: 10%;
+}
+.btn a{
+  color: #ffff;
+  font-weight: bold;
 }
 
 /*--------03.thirt-commants---------*/
@@ -193,6 +197,10 @@ h1{
   border-radius: 10px;
   margin-left: 30px;
   margin-top: 20px;
+}
+.btn-03 a{
+  color: #ffff;
+  font-weight: bold;
 }
 /*---------05.fifth-commants-----------*/
 
@@ -256,4 +264,12 @@ h1{
   background-color: #FF5959;
   border: none;
   padding: 10px 15px;
+}
+#layout-finish{
+  background-color: black;
+}
+.quote{
+  text-align: center;
+  color: red;
+  padding: 30px 0;
 }
