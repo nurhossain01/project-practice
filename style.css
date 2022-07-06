@@ -167,6 +167,45 @@ h1{
   width: 80px;
   background-color: orange;
 }
+
+/*--------03.thirt-commants---------*/
 #donate-plan{
-  background-color: pink;
+  background-color: rgb(234, 223, 223);
+  margin-top: 5%;
+  padding-bottom: 10%;
 }
+.plan-explore{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 25px;
+}
+.plan-explore p{
+  padding-bottom: 50px;
+}
+.donate-area-01{
+  background-color: #EDF5F6;
+  padding: 20px 20px;
+}
+.donate-area-02{
+  background-color: #FFEEEE;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 45px;
+}
+.donate-area-03{
+  background-color: #FFF4D6;
+  padding: 20px 20px;
+}
+.icon{
+  padding-left: 10px;
+  font-size: 40px;
+  color: tomato;
+}
+.food{
+  padding-top: 20px;
+}
+.food p{
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
