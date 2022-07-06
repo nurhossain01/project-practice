@@ -13,7 +13,7 @@ body{
   padding: 0 15px;
 }
 .container{
-  width: 900px;
+  width: 800px;
   margin: 0 auto;
 }
 .container::before,
@@ -151,24 +151,21 @@ h1{
   text-align: center;
   margin-top: 30px;
 }
+.other-donate h3{
+  border-bottom: 2px solid;
+  margin: 0 300px;
+  border-color: #DADADA;
+}
 .btn{
   margin-top: 30px;
   background-image: linear-gradient(tomato,orange);
   display: inline-block;
-  padding: 10px 20px;
+  padding: 5px 15px;
   border-radius: 10%;
-  position: relative;
-}
-.btn::before{
-  content: "";
-  position: absolute;
-  bottom: 70px;
-  height: 2px;
-  width: 80px;
-  background-color: orange;
 }
 
 /*--------03.thirt-commants---------*/
+
 #donate-plan{
   background-color: rgb(234, 223, 223);
   margin-top: 5%;
@@ -204,8 +201,26 @@ h1{
 .food{
   padding-top: 20px;
 }
+#para{
+  padding-bottom: 25px;
+}
 .food p{
   padding-top: 20px;
-  padding-bottom: 30px;
+}/*---------05.fifth-commants-----------*/
+
+.hepless h3{
+  padding-top: 40px;
+  font-size: 20px;
+  margin: 0 30px;
+}
+.hepless p{
+  padding-top: 20px;
+  margin: 0 30px;
+  line-height: 25px;
+}
+.hepless-img-area img{
+  height: 270px;
+  margin: 0 30px;
+  padding-top: 50px;
 }
 
