@@ -24,16 +24,13 @@ body{
   display: table;
   clear: both;
 }
-ul{
-  list-style: none;
-}
 a{
   text-decoration: none;
 }
 .col-50{
   width: 50%;
   float: left;
-  padding: 0 15px;
+  padding: 0 25px;
 }
 .col-33{
   width: 33%;
@@ -44,24 +41,6 @@ a{
   width: 20%;
   float: left;
   padding:0 15px
-}
-.col-30{
-  width: 30%;
-  float: left;
-  padding: 0 15px;
-}
-.col-70{
-  width: 70%;
-  float: left;
-  padding: 0 15px;
-}
-col-100{
-  width: 100%;
-  float: left;
-}
-.section-padding{
-  padding-top: 80px;
-  padding-bottom: 80px;
 }
 img{
   width: 100%;
@@ -206,7 +185,16 @@ h1{
 }
 .food p{
   padding-top: 20px;
-}/*---------05.fifth-commants-----------*/
+}
+.btn-03{
+  background-image: linear-gradient(tomato, orange);
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+/*---------05.fifth-commants-----------*/
 
 .hepless h3{
   padding-top: 40px;
@@ -222,5 +210,19 @@ h1{
   height: 270px;
   margin: 0 30px;
   padding-top: 50px;
+}
+
+/*---------06.six-commants------------*/
+
+.hepless-img-area-02 img{
+  margin: 0 30px;
+  padding-top: 50px;
+}.hepless-02{
+  margin: 0 30px;
+  padding-top: 40px;
+}
+.hepless-02 p{
+  line-height: 28px;
+  padding-top: 20px;
 }
 
